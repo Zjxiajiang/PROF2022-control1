@@ -23,9 +23,18 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>3.8.1</version>
+      <version>4.8.1</version>
+    </dependency>
+      <dependency>
+        <groupId>org.mockito</groupId>
+        <artifactId>mockito-all</artifactId>
+        <version>1.8.4</version>
+        <scope>test</scope>
     </dependency>
   </dependencies>
+
+<!-- https://mvnrepository.com/artifact/junit/junit -->
+
 
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
@@ -76,6 +85,9 @@
       <plugin>
         <artifactId>maven-project-info-reports-plugin</artifactId>
       </plugin>
+      
     </plugins>
   </reporting>
 </project>
+<!-- https://mvnrepository.com/artifact/org.mockito/mockito-all -->
+
